@@ -4,11 +4,12 @@ pool:
 trigger:
   batch: true
   branches:
-    include: 
+    include:
+    - master
     - refs/heads/*
   paths:
     include: 
-    - parrot/
+    - parrot/*
 
 variables:
   projectName: parrot
